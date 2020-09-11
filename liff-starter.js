@@ -162,7 +162,7 @@ function meProfile(){
     liff.getProfile().then(function (prof) {
         var stat = prof.statusMessage;
         if (stat == null) {
-            var stat = " - ";
+            var stat = " - NFS-TEAM";
         }
         if (stat.length > 60) {
             var stat = "Status Message is to long! Max 60 words";
@@ -182,7 +182,7 @@ function meProfile(){
                         {
                             type:"uri",
                             label:"Me",
-                            uri:"line://app/1609119464-PAkYKJ7J?type=profile"
+                            uri:"line://app/1654916783-Ek5pnKZW?type=profile"
                         }
                     ]
                 }
